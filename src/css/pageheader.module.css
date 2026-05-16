@@ -1,0 +1,12 @@
+.container {
+  text-align: center;
+}
+
+.heading {
+  color: var(--main-color);
+}
+
+.text {
+  margin-top: 10px;
+  color: var(--main-color);
+}

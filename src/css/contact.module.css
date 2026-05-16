@@ -1,0 +1,28 @@
+.formContainer {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.infoContainer {
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 30px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 2rem;
+  color: var(--main-color);
+}
+
+.info {
+  margin-top: 10px;
+  color: var(--secondary-text);
+  font-weight: bold;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,54 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.subContainer {
+  width: 95%;
+  align-items: center;
+  margin: 80px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subHeading {
+  color: var(--main-color);
+}
+
+.heading {
+  font-size: 4rem;
+  color: var(--main-color);
+}
+
+.infoText {
+  font-size: 1rem;
+  color: var(--secondary-text);
+  max-width: 60ch;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  line-height: 1.6;
+  font-weight: 400;
+  white-space: pre-line;
+}
+img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.purple {
+  color: var(--text-color);
+}
+
+.btnContainer {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.iconContainer {
+  display: flex;
+  gap: 13px;
+}
