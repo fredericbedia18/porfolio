@@ -1,0 +1,46 @@
+.page {
+  min-height: 100vh;
+  background: #f7f8fb;
+}
+
+.hero {
+  padding: 80px 0 40px;
+  background: linear-gradient(180deg, #ffffff 0%, #f4f5f8 100%);
+}
+
+.heroInner {
+  width: min(1100px, 90%);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heroText {
+  max-width: 760px;
+  margin: 24px auto 0 auto;
+  color: var(--secondary-text);
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.container {
+  width: min(1200px, 92%);
+  margin: 0 auto 80px auto;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 0 30px;
+  }
+
+  .heroText {
+    margin-top: 18px;
+    font-size: 0.98rem;
+  }
+}
